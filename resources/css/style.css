@@ -1,0 +1,40 @@
+/* Header */
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+/* Setting up the Logo image and title display */
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
+}
+
+/* Logo image */
+.logo img {
+  margin-right: 12px;
+}
+
+/* Color of the logo text */
+.logo span {
+  color: MediumAquamarine;
+}
+
+/* Nav */
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: black;
+}
