@@ -45,9 +45,8 @@ a {
   color: black;
 }
 
-/* Border around the divs */
+
 div {
-  border: 1px solid black;
   display: block;
 }
 
@@ -107,4 +106,29 @@ div {
 
 .cats.image-content {
   background-image: url("../images/img-story-1.png");
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+}
+
+.narrative {
+  margin-top: 16px;
 }
